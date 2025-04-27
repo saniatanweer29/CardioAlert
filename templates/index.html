@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardiac Arrest Prediction</title>
+    <title>CardioAlert</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
@@ -30,7 +30,8 @@
     <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
     <script src="https://files.bpcontent.cloud/2025/04/26/20/20250426205922-BDPV99YE.js"></script>
     <div class="container">
-        <h1>Cardiac Arrest Detector</h1>
+        <h1>CardioAlert</h1>
+        <h2>Cardiac Arrest Detector</h2>
         <form action="/predict" method="post">
             <input type="number" name="age" placeholder="Age (years)" required><br>
             <input type="number" name="gender" placeholder="Gender (1-Male, 2-Female)" required><br>

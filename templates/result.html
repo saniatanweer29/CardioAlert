@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prediction Result</title>
+    <title>CardioAlert</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
@@ -29,7 +29,8 @@
         <script src="https://files.bpcontent.cloud/2025/04/26/20/20250426205922-BDPV99YE.js"></script>
     <div id="background"></div>
     <div class="container2">
-        <h1>Prediction Result</h1>
+        <h1>CardioAlert</h1>
+        <h2>Prediction Result</h2>
         <p><strong>Cardiac Arrest Risk:</strong> {{ prediction }}</p>
         <p><strong>Probability:</strong> {{ probability }}%</p>
         <p><strong>Precautions:</strong> {{ precautions }}</p>

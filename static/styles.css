@@ -23,7 +23,7 @@ body {
     width: 90%;
     margin: 50px auto;
     padding: 30px 25px;
-    background-color: #fff;
+    background-color: #ff0062;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.3s ease;
@@ -34,7 +34,7 @@ body {
     width: 90%;
     margin: 50px auto;
     padding: 30px 25px;
-    background-color: #fff;
+    background-color: #ff0062;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.3s ease;
@@ -49,7 +49,16 @@ h1 {
     font-weight: 700;
     font-size: 2.2rem;
     margin-bottom: 20px;
-    color: #ff0000;
+    color: #000000;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #481818;
 }
 
 p{
