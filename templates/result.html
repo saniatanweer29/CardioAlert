@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <script src ="https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.min.js"></script>
+    <script src ="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.cells.min.js"></script>
+    <script>
+      window.addEventListener('load', function() {
+        VANTA.CELLS({
+            el: "#background",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            color1: 0xbd0000,
+            color2: 0xffb6b6,
+            speed: 1.10
+          });
+      });
+    </script>
+        <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
+        <script src="https://files.bpcontent.cloud/2025/04/26/20/20250426205922-BDPV99YE.js"></script>
+    <div id="background"></div>
+    <div class="container2">
+        <h1>Prediction Result</h1>
+        <p><strong>Cardiac Arrest Risk:</strong> {{ prediction }}</p>
+        <p><strong>Probability:</strong> {{ probability }}%</p>
+        <p><strong>Precautions:</strong> {{ precautions }}</p>
+        <button onclick="window.history.back()" class="go-back-button">Go Back</button>
+    </div>
+</body>
+</html>
