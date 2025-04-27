@@ -44,10 +44,10 @@
   <h2>⚙️ Installation & Setup</h2>
     <ol>
         <li><strong>Clone the repository:</strong><br>
-            <code>git clone https://github.com/saniatanweer29/ai-cardiac-arrest-predictor.git</code>
+            <code>git clone https://github.com/saniatanweer29/cardioalert.git</code>
         </li>
         <li><strong>Navigate into the project directory:</strong><br>
-            <code>cd ai-cardiac-arrest-predictor</code>
+            <code>cd cardioalert</code>
         </li>
         <li><strong>Install required Python packages:</strong><br>
             <code>pip install -r requirements.txt</code>
